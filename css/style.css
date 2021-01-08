@@ -8,6 +8,7 @@ ul{
 }
 a{
     text-decoration: none;
+    background: transparent;
 }
 .contact__title{
     display: flex;
@@ -862,7 +863,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffb699!important;
 }
 
 .btn-atomic-tangerine {
