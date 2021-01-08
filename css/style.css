@@ -59,6 +59,12 @@ footer .partenaires{
     align-content: center;
     margin: 20px 0 20px 0;
 }
+.contact{
+    width: 100%;
+}
+#form_1{
+    text-align: start;
+}
 @media (max-width:767px){
     .social__menu{
     display: grid;
