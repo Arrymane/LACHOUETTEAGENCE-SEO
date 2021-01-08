@@ -23,11 +23,31 @@ a{
     justify-content: center;  
     text-align: center;
 }
+.adresse{
+    width: 100%;
+    display:flex;
+    justify-content: center;  
+    text-align: center;
+    margin-top: 20px;
+}
 .blockquote{
-    font-size: 18px;
+    font-size: 22px;
     font-style: italic;
 }
-
+.row{
+    margin:0;
+}
+.container{
+    padding:0;
+}
+#bloc-5-cta h2{
+    opacity: 100%;
+    font-weight: 700;
+    background-color: #F3976C;
+    padding: 40px 40px 40px 40px;
+    max-width: 500px;
+    margin: auto;
+}
 footer .partenaires{
     width:100%;
     display:flex;
@@ -37,14 +57,19 @@ footer .partenaires{
     display: flex;
     justify-content: space-around;
     align-content: center;
+    margin: 20px 0 20px 0;
 }
 @media (max-width:767px){
     .social__menu{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
     grid-area: auto;
     justify-content: center;
+    }
+    .col-sm-6 {
+        width: 100%;
     }
 
 }
@@ -53,7 +78,7 @@ label{
     font-weight: bold;
     color: #303030!important;
 }
-/*****Optimisation seo et accessibilité fin*****/
+/*****Optimisation seo et accessibilité end*****/
 body {
     margin: 0;
     padding: 0;
@@ -564,7 +589,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    width:90%;
+    width:100%;
 }
 
 .scrollToTop {
@@ -733,7 +758,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -808,7 +833,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #F3976C;
+    ;
     padding: 40px 40px 40px 40px;
 }
 
